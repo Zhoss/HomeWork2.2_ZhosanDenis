@@ -4,9 +4,9 @@ public class Main {
     public static void main(String[] args) {
         LocalDate localDate = LocalDate.now();
         Person maxim = new Person(localDate.getYear() - 35, "Максим", "Минск","бренд-менеджер");
-        Person anya = new Person(localDate.getYear() - 29, "Аня", "Москва", "методист образовательных программ");
+        Person anya = new Person(-1985, "Аня", "Москва", "методист образовательных программ");
         Person katya = new Person(localDate.getYear() - 28, "Катя", "Калининград", "продакт-менеджер");
-        Person artem = new Person(localDate.getYear() - 27, "Артём", "Москва", "директор по развитию бизнеса");
+        Person artem = new Person(localDate.getYear() - 27);
 
         sayHello(maxim);
         sayHello(anya);
